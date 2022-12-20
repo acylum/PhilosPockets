@@ -1,34 +1,38 @@
 
 <p align="center">
-<img src="./.assets/SafuuX-Token-White-BG-a5d22aaf.svg" width="256" alt="SafuuX logo" />
+<img src="./.assets/Title.png" width="1024" alt="Philos Pockets logo" />
 </p>
 
-# Hyperverse SafuuX Builderkit
+# Philos Pockets
 
-This is an initial scaffold project to assist with building a smart module for the Hyperverse
+NFT Virtual World Escape Room Game, Creator Platform and Marketplace with support for User Generated Content Creation and Ownership
 
-## How the project is setup
+## Videos
 
-1. `Contracts` - This is the first layer. Think of this as your database model and repository for how to fetch and store data
-2. `Source` - Contains your javascript interface to your contracts. 
-3. `Stories` - This is your UI interface to your smart module that allows for documentating and testing the functionality of your smart module
+Two Minute intro
+- [Philos Pockets 2 Minute Intro](https://youtu.be/rxghuU5GvVA)
 
+In depth 10 minute video
+- [Philos Pockets In depth Description](https://youtu.be/psymGSzL2b4)
 
-## Contracts
-Modules are primarily written in `solidity`. They utilize the `hardat` framework to assist in the compilation and deploying of your contracts
+## Instructions/Walkthrough Video of Hyperverse Hackathon Submission
+- [Philos Pockets Instructions - walkthrough](https://youtu.be/wSU82b5bOGU)
 
-## Source
-The javascript source connects to the smart module using `ethers` by default. The format of a Hyperverse smart module is broken down into further sub sections
+## Launching the project Instructions
+1. `clone https://github.com/acylum/PhilosPockets.git` - enter a folder where you want to clone to. 
+2. `npm install` - sets up all dependancies
+3. `yarn install` - sets up more dependancies (make sure thst you have 'yarn' on your computer)
+4. `pnpm storybook` - open your browser to http://localhost:6006/
 
-1. `Library` - Lib folder contains the detailed functions that read & write to the blockchain. 
-2. `useHook` - React hook that exposes your library to the react ecosystem. You'll want to rename this export to better help identify your module
-3. `Provider` - Hyperverse modules use the React Context to expose state to child components
-4. `Environment` - Simple component that will identify which blockchain and network your module is being used under. This allows EVM modules to easily work with any supported EVM module
+## NextJS Version
+This version shows the Nextjs Marketplace
+1. `clone https://github.com/acylum/Philos-Pockets-NextJs.git` - enter a folder where you want to clone to. 
+2. `npm install` - sets up all dependancies
+3. `yarn install` - sets up more dependancies (make sure thst you have 'yarn' on your computer)
+4. `pnpm storybook` - open your browser to http://localhost:6006/
 
+## Team Members
+`Nacho Money`
 
-# Documentation
-For more information and learn about Hyperverse checkout the resources below
-
-- [SafuuX](https://www.safuux.com/)
-- [Hyperverse Documentation](https://docs.hyperverse.dev/)
-- [Decentology YouTube Channel](https://www.youtube.com/c/Decentology)
+Discord: `NachoMoney#4976`
+Twitter: `@nachomoneyhoney`
