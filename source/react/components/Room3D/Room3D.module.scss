@@ -1,0 +1,36 @@
+
+body { 
+  background-color: #161720;/*292929 nachomod*/
+}
+
+button {
+  font-size: 80px;
+
+  /*blue button gradient*/
+  
+  -webkit-box-align: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  height: 38px;
+  padding: 0px 24px;
+  background: linear-gradient(89.92deg, rgb(85, 195, 249) 0.08%,  rgb(0, 102, 255) 99.93%);/*0, 102, 255  255, 0, 249*/
+  color: white;
+  width: 100%;
+      
+
+
+}
